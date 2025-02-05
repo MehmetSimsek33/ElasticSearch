@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+spring:
+  elasticsearch:
+    uris: https://localhost:9200
+    username: elastic
+    password: Aa123456**
+
