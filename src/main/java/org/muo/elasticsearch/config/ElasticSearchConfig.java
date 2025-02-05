@@ -22,5 +22,5 @@ public class ElasticSearchConfig extends ElasticsearchConfiguration {
 }
 
 //public class ElasticSearchConfig{
-//
+//g
 //}
