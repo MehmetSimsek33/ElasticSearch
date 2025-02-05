@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RequestMapping("/musteri")
 public class MusteriController{
-//    private final MusteriRepository musteriRepository;
-//
-//    @GetMapping("/save")
-//    public void save() {
-//        musteriRepository.save(Musteri.builder().name("deneme").build());
-//    }
+    private final MusteriRepository musteriRepository;
+
+    @GetMapping("/save")
+    public void save() {
+        musteriRepository.save(Musteri.builder().name("deneme").build());
+    }
 }

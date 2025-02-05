@@ -10,7 +10,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages ="org.muo.elasticsearch.repository")
+//@EnableElasticsearchRepositories(basePackages ="org.muo.elasticsearch.repository")
 public class ElasticSearchConfig extends ElasticsearchConfiguration {
 
     @Override
