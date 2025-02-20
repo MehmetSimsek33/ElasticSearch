@@ -1,9 +1,9 @@
-server:
-  port: 9090
-
 spring:
-  elasticsearch:
-    uris: https://localhost:9200
-    username: elastic
-    password: Aa123456**
-
+  data:
+    elasticsearch:
+      host: localhost:9200
+      username : elastic
+      password: nhndev2024
+      socket-timeout: 60000
+      connect-timeout: 5000
+      connection-request-timeout: 300000

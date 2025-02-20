@@ -9,17 +9,20 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 
 
 
-@Configuration
+//@Configuration
 //@EnableElasticsearchRepositories(basePackages ="org.muo.elasticsearch.repository")
-public class ElasticSearchConfig extends ElasticsearchConfiguration {
+public class ElasticSearchConfig {
 
-    @Override
-    public ClientConfiguration clientConfiguration() {
-        return ClientConfiguration.builder()
-                .connectedTo("localhost:9200")
-                .build();
-    }
 }
+
+//    @Override
+//    public ClientConfiguration clientConfiguration() {
+//        return ClientConfiguration.builder()
+//                .connectedTo("localhost:9200")
+//                .usingSsl()
+//                .build();
+//    }
+//}
 
 //public class ElasticSearchConfig{
 //g
